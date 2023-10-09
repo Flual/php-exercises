@@ -1,0 +1,36 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#kalender {
+    border-collapse: collapse;
+    width:50%;
+    margin:auto;
+}
+
+#kalender td, #kalender th {
+    border:1px solid green;
+}
+
+#kalender td.tag {
+    width:25px;
+    text-align: right;
+}
+
+
+#kalender tr.gerade td  { /* .gerade { } */    
+    background-color: hotpink;
+}
+
+#kalender tr.ungerade td { /* .ungerade { } */
+   font-style: italic;
+   text-align: left;
+}
+
+#kalender tr.feiertag td { /* .feiertag { } */
+   background-color: gold;
+}
